@@ -3,11 +3,10 @@ import { Link } from 'expo-router';
 
 export default function Index() {
   return (
-    <View style={styles.container}>
-      <Text style={styles.text}>Youssif Aboubacar</Text>
-      <Link href="/about" style={styles.button}>
-        Go to Asbate
-      </Link>
+    <View className="flex-1 items-center justify-center bg-red-500">
+      <Text className="text-white text-2xl font-bold">
+        Tailwind fonctionne !
+      </Text>
     </View>
   );
 }
